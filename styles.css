@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#left-pannel {
+    height: 100vh;
+    width: 35vw;
+    float: left; /* Makes the panel float to the left */
+    background-image: url('imgs/tropical.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f0f0f0; /* Optional, just to visualize the panel */
+}
+
+#logo-container{
+    width: 100%;
+    height: 20%;
+    margin-top: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color(srgb red green blue);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'Odin';
+    src: url('imgs/Norse-Bold.otf') format('truetype'); /* Use the correct format */
+}
+
+h1{
+    font-family: 'Odin';
+    color: white;
+    font-size: 500%;
+}
+
+#odin-logo{
+    height: 100%;
+    width: 22%;
+    padding: 2.5%;
+}
+
+#right-pannel {
+    height: 100vh;
+    width: 65vw;
+}
+
+#description{
+    width: 100vw;
+    background-color: #f0f0f0;
+    padding-top: 16vh;
+    padding-bottom: 8vh;
+    padding-right: 20vw;
+    padding-left: 38vw;
+}
+
+#h2-margin{
+    margin-top: 4%;
+}
+
+form {
+    width: 100vw;
+    background-color: #f9f9f9; /* Light background to make it visible */
+    border: 1px solid #ddd;
+    padding: 20px; /* Adds padding for better readability */
+    padding-right: 20vw;
+    padding-left: 38vw;
+    box-shadow: 5px 2.5px 2.5px rgb(208, 208, 208);
+}
+
+p{
+    padding: 1%;
+}
+
+#button-container{
+    width: 100vw;
+    background-color: #f0f0f0;
+    padding-top : 10%;
+    padding-left: 60%;
+}
+
+button{
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline-block */
+    font-size: 16px; /* Text size */
+    border-radius: 12px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+a{
+    text-decoration: none;
+}
